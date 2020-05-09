@@ -34,6 +34,8 @@ tablaSocios = $('#tablaSocios').DataTable({
         {"defaultContent": "<div class='text-center'><div class='btn-group'><button class='btn btn-primary btn-sm btnEditar'><i class='material-icons'>edit</i></button><button class='btn btn-danger btn-sm btnBorrar'><i class='material-icons'>delete</i></button></div></div>"}
     ]
 });     
+
+
 var fila; //captura la fila, para editar o eliminar
 //submit para el Alta y Actualización
 $('#formSocios').submit(function(e){                         
